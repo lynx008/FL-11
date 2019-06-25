@@ -1,3 +1,15 @@
+%header-underline {
+	content: "";
+	display: block;
+	background-color: map-get($colors, "textUnderline");
+	position: absolute;
+	z-index: -1;
+}
+
+@mixin darken {
+	color: darken(#fff,15%);
+}
+
 body {
 	max-width: 1920px;
 	margin: 0;
