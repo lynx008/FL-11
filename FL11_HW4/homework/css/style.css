@@ -1,0 +1,283 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	min-width: 900px;
+	max-width: 2400px;
+	width: 100%;
+}
+
+.header {
+	background-image: url(../img/sample2.jpg);
+	background-size: cover;
+	height: 100vh;
+	min-height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #E8E8E8;
+}
+
+.header_heading {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 60px;
+}
+
+.logo {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.account {
+	width: 160px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.account a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header_text {
+	text-align: center;
+}
+
+h1 {
+	color: #F3F3F3;
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 7px;
+}
+
+h1 span {
+	font-size: 96px;
+}
+
+.header_btns {
+	display: flex;
+	justify-content: space-around;
+	padding: 60px;
+}
+
+.head-btn {
+	width: 20%;
+	height: 60px;
+	border: 3px solid #F3F3F3;
+	color: #F3F3F3;
+	font-size: 16px;
+	background: none;
+}
+
+.monochrome {
+	background: linear-gradient(to bottom left, #000 50%, #F3F3F3 50%);
+}
+
+.white {
+	padding: 30px 60px;
+	max-width: 40%;
+	font-size: 18px;
+}
+
+.black {
+	color: #F0F0F0;
+	padding: 40px;
+	margin-left: calc(50% + 160px);
+}
+
+.articles {
+	background-color: #F3F3F3;
+	padding: 60px;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+.articles h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.article-one, .article-two {
+	display: flex;
+	padding: 10px;
+}
+
+.article_img {
+	width: 50%;
+	background-size: cover;
+	border: 1px solid #fff;
+	position: relative;
+}
+
+.article-one .article_img {
+	background-image: url(../img/sample-1.jpg);
+}
+
+.article-two .article_img {
+	background-image: url(../img/sample-2.jpg);
+}
+
+.btn_like {
+	display: block;
+	width: 60px;
+	height: 34px;
+	background: rgba(15, 15, 15, 0.5);
+	border: 2px solid #fff;
+	color: #fff;
+	position: absolute;
+	right: 20px;
+	top: 23px;
+}
+
+.date_text {
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	color: #fff;
+}
+
+.article_text {
+	width: 50%;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px;
+}
+
+.article-one .article_text {
+	padding-left: 120px;
+}
+
+.article-two .article_text {
+	padding-right: 100px;
+}
+
+.article_text p {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 60px;
+}
+
+.card {
+	height: 400px;
+	width: 22%;
+	background-size: cover;
+	position: relative;
+}
+
+.card1 {
+	background-image: url(../img/news-list-1.jpg);
+}
+
+.card2 {
+	background-image: url(../img/news-list-2.jpg);
+}
+
+.card3 {
+	background-image: url(../img/news-list-3.jpg);
+}
+
+.card4 {
+	background-image: url(../img/news-list-4.jpg);
+}
+
+.card a {
+	display: block;
+	position: absolute;
+	height: 40px;
+	width: 90%;
+	color: #fff;
+	opacity: 0.8;
+	background-color: #097774;
+	text-decoration: none;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
+	left: 5%;
+	top: 45%;
+}
+
+.news_btn {
+	display: block;
+	width: 25%;
+	height: 60px;
+	border: none;
+	background-color: #097774;
+	font-size: 16px;
+	color: #F0F0F0;
+	margin: 40px auto;
+}
+
+.subscribe {
+	background-color: #F3F3F3;
+	padding: 40px 80px;
+}
+
+.subscribe p {
+	font-size: 14px;
+}
+
+.form {
+	display: flex;
+	justify-content: flex-end;
+	margin: 30px 0;
+}
+
+.form input {
+	margin-left: 15px;
+	margin-right: 10px;
+	height: 36px;
+	width: 160px;
+	padding: 10px;
+	border: 1px solid #000;
+	background-color: #F3F3F3;
+	color: #000;
+	font-size: 14px;
+}
+
+.form button {
+	height: 36px;
+	width: 90px;
+	background-color: #097774;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.footer {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyright {
+	color: #9E9E9E;
+}
+
+.footer-nav {
+	display: flex;
+}
+
+.nav_item {
+	margin-left: 25px;
+	list-style-type: none;
+}
+
+.nav_item a {
+	text-decoration: none;
+	color: #000;
+}
