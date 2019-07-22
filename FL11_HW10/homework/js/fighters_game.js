@@ -56,11 +56,11 @@ class Fighter {
 
 	addWin() {
 		this.wins += 1;
-    }
+	}
 
-    addLoss() {
+	addLoss() {
 		this.losses += 1;
-    }
+	}
 }
 
 function battle(firstFighter, secondFighter) {
