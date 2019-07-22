@@ -37,7 +37,7 @@ class Fighter {
 		}
 
 	logCombatHistory () {
-		console.log('Name: ' + this.name + 'Wins: ' + this.wins + 'Losses: ' + this.losses +'');
+		console.log('Name: ' + this.name + 'Wins: ' + this.wins + 'Losses: ' + this.loss +'');
 	}
 
 	heal(health) {
@@ -59,7 +59,7 @@ class Fighter {
 	}
 
 	addLoss() {
-		this.losses += 1;
+		this.loss += 1;
 	}
 }
 
